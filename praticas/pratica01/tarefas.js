@@ -18,17 +18,18 @@ function adicionarTarefa(nomeTarefa) {
 }
 
 function removerTarefa(idTarefa) {
-    const posicao = tarefas.findIndex(task => task.id === idTarefa);
-    if (posicao != -1) {
-        tarefas.splice(posicao, 1);
-    }
+    const posicao = tarefas.findIndex(task => task.id === parseInt(idTarefa));
+    if (posicao !== -1) {
+      tarefas.splice(posicao, 1);
+    }    
 };
 
 function modificarTarefa(idTarefa, tarefaModificada) {
-    const tarefaLocalizada = tarefas.find(tarefa => tarefa.id === idTarefa);
+    const tarefaLocalizada = tarefas.find(tarefa => tarefa.id === parseInt(idTarefa));
     if (tarefaLocalizada) {
         Object.assign(tarefaLocalizada, tarefaModificada);
     }
+    
 };
 
 export { listarTarefas, adicionarTarefa, removerTarefa, modificarTarefa };
