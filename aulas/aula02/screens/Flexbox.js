@@ -27,21 +27,3 @@ function Flexbox() {
 }
 
 export default Flexbox;
-
-
-
-{/* <View style={{ transform: [{ rotate: '45deg' }], alignSelf: "center", height: 190, width: 190, backgroundColor: "yellow" }}></View> */}
-
-
-
-{/* <View style={{ alignSelf: "center", height: 210, width: 300, backgroundColor: "green", justifyContent: "center", alignItems: "center" }}>
-<View style={{ transform: [{ scaleY: 0.8  }] }}>
-  <View style={{ transform: [{ rotate: '45deg' }], height: 150, width: 150, backgroundColor: "yellow", justifyContent: "center", alignItems: "center" }}>
-    <View style={{ height: 130, width: 130, borderRadius: 80, backgroundColor: "blue", justifyContent: "center", alignItems: "center" }}>
-      <View style={{ height: 65, width: 130, backgroundColor: "white", borderBottomLeftRadius: 80, borderBottomRightRadius: 80, overflow: 'hidden' }}>
-        <View style={{ height: 55, width: 130, backgroundColor: "blue", borderBottomLeftRadius: 80, borderBottomRightRadius: 80, overflow: 'hidden' }}></View>
-      </View>
-    </View>
-  </View>
-</View>
-</View>  */}

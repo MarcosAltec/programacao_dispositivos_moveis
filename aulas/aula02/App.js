@@ -1,10 +1,13 @@
-import Flexbox from "./screens/Flexbox"
-import PadraoOIS from "./screens/PadraoIOS";
+import Flexbox from "./screens/Flexbox";
+import GaleriaScreen from "./screens/GaleriaScreen";
+import PadraoAndroid from "./screens/PadraoAndroid";
+import PadraoIOS from "./screens/PadraoIOS";
+import Perfil from "./screens/Perfil";
 
-const App = () => {
-  return(
-    <PadraoOIS/>
-  )
-};
+function App() {
+  return (
+    <Perfil />
+  );
+}
 
 export default App;
